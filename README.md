@@ -26,10 +26,3 @@ A modern React website for **Learn Brihad Mridanga (LBM)** — an online space t
 - Plain CSS for dark theme styling  
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/learn-brihad-mridanga.git
-cd learn-brihad-mridanga
