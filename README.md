@@ -2,7 +2,9 @@
 
 A modern React website for **Learn Brihad Mridanga (LBM)** — an online space to learn and stay updated about Brihad Mridanga classes.
 
-![LBM Logo](public/lbm-logo.png)
+<p align="center">
+  <img src="public/lbm-logo.png" alt="LBM Logo" width="250"/>
+</p>
 
 ---
 
