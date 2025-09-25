@@ -1,17 +1,40 @@
 import InstructorSlideshow from "../components/InstructorSlideshow";
+import Timeline from "../components/Timeline";
 
 export default function About() {
   return (
     <main style={{ paddingTop: "0.5rem", paddingLeft: "2rem", paddingRight: "2rem", paddingBottom: "2rem" }}>
       <h1>About</h1>
-      
-      <p>A few years ago, what started as a small initiative in the VCC community—a handful of students teaching and learning together—has grown into something much bigger. That spark of sharing knowledge soon spread across America, bringing together students and instructors from different backgrounds under a single vision.</p>
-      <p>At LBM, our mission is simple yet powerful: to empower youth to both learn and teach. We believe education is not just about absorbing information—it’s about building confidence, inspiring curiosity, and passing knowledge forward. Every student has the potential to grow, and every teacher has the ability to make a difference.</p>
-      <p>Today, LBM is more than just a community—it’s a platform. A place where students can find the right instructor for their needs, and instructors can connect with eager learners who value what they have to offer. By matching students and teachers with care, we create learning experiences that are meaningful, personalized, and impactful.</p>
-      <p>At its heart, LBM is built by students, for students. And as we continue to grow, our goal remains the same: to make education more accessible, collaborative, and inspiring for youth everywhere.</p>
+      <Timeline />
+
+      <h2 style={{ marginTop: "2rem" }}>What We Do</h2>
+      <p>LBM is a platform that connects students and instructors — making it easy for someone who wants to learn mridanga to find the right teacher.</p>
+      <p>Whether you’re completely new or already know a few beats, we help match you with someone who can guide you at your level — at your pace.</p>
+
+      <h2 style={{ marginTop: "2rem" }}>Our Mission</h2>
+      <ul>
+        <li>Empower youth to learn and grow through mridanga</li>
+        <li>Encourage teaching as a way to reinforce learning and give back</li>
+        <li>Support the culture of kirtan by training the next generation of mridanga players</li>
+      </ul>
+      <p>At its heart, LBM is about passing down tradition in a way that’s practical, inspiring, and community-driven.</p>
 
       <h2 style={{ marginTop: "2rem" }}>Our Instructors</h2>
       <InstructorSlideshow />
+
+      <h2 style={{ marginTop: "2rem" }}>Want to Get Involved?</h2>
+      <p>Whether you’re looking to learn, teach, or just stay connected, LBM is here to support your journey with the mridanga.</p>
+      <p>Reach out, pick up a drum, and let’s play.</p>
+      <a href="/classes" style={{
+        display: "inline-block",
+        backgroundColor: "#2c3e50",
+        color: "white",
+        padding: "0.8rem 1.5rem",
+        borderRadius: "8px",
+        textDecoration: "none",
+        marginTop: "1rem",
+        fontWeight: "bold",
+      }}>Join a Class</a>
 
     </main>
   );
