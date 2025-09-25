@@ -9,8 +9,8 @@ export default function App() {
         justifyContent: "space-between",
         alignItems: "center",
         padding: "0.25rem 1rem",
-        borderBottom: "1px solid #222",
-        backgroundColor: "#444444",
+        boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
+        backgroundColor: "#2c3e50",
       }}
     >
       {/* Logo + Title */}
@@ -18,9 +18,9 @@ export default function App() {
         <img
           src="/new-lbm-logo.png"
           alt="LBM Logo"
-          style={{ height: "60px", width: "60px", marginRight: "1rem" }}
+          style={{ height: "60px", width: "70px", marginRight: "0.5rem" }}
         />
-        <h1 style={{ margin: 0, color: "white", fontSize: "1.5rem" }}>Learn Brihad Mridanga</h1>
+        <h1 style={{ margin: 0, color: "#f1c232", fontSize: "1.5rem" }}>Learn Brihad Mridanga</h1>
       </div>
 
       {/* Nav buttons */}

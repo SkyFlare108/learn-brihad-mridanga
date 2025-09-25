@@ -1,9 +1,9 @@
 export default function Payments() {
   return (
-    <main style={{ padding: "2rem" }}>
+    <main style={{ paddingTop: "0.5rem", paddingLeft: "2rem", paddingRight: "2rem", paddingBottom: "2rem" }}>
       <h1>Donations</h1>
 
-      <details style={{ marginTop: "1.5rem", border: "1px solid #ddd", borderRadius: 8, padding: "0.75rem 1rem" }}>
+      <details style={{ marginTop: "1.5rem", border: "1px solid #ddd", borderRadius: 8, padding: "0.75rem 1rem", backgroundColor: "white" }}>
         <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem" }}>
           Harisri Yerramsetti
         </summary>
@@ -29,7 +29,7 @@ export default function Payments() {
         </div>
       </details>
 
-      <details style={{ marginTop: "1.5rem", border: "1px solid #ddd", borderRadius: 8, padding: "0.75rem 1rem" }}>
+      <details style={{ marginTop: "1.5rem", border: "1px solid #ddd", borderRadius: 8, padding: "0.75rem 1rem", backgroundColor: "white" }}>
         <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem" }}>
           Samarth Appalabattula
         </summary>
@@ -38,7 +38,7 @@ export default function Payments() {
         </div>
       </details>
 
-      <details style={{ marginTop: "1.5rem", border: "1px solid #ddd", borderRadius: 8, padding: "0.75rem 1rem" }}>
+      <details style={{ marginTop: "1.5rem", border: "1px solid #ddd", borderRadius: 8, padding: "0.75rem 1rem", backgroundColor: "white" }}>
         <summary style={{ cursor: "pointer", fontWeight: 600, fontSize: "1.1rem" }}>
           Arjun Krishna Gundimeda
         </summary>
