@@ -1,6 +1,5 @@
 import EmbedFrame from "../components/EmbedFrame";
 
-const CALENDAR_URL = import.meta.env.VITE_CALENDAR_EMBED_URL || "";
 const FORM_URL = import.meta.env.VITE_GOOGLE_FORM_EMBED_URL || "";
 
 export default function Classes() {
