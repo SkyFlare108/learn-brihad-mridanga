@@ -3,8 +3,9 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import About from "./pages/About";
-import Classes from "./pages/Classes";
+import Registration from "./pages/Registration";
 import Payments from "./pages/Payments";
+import Schedule from "./pages/Schedule";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -13,7 +14,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <About /> },
-      { path: "classes", element: <Classes /> },
+      { path: "registration", element: <Registration /> },
+      { path: "schedule", element: <Schedule /> },
       { path: "payments", element: <Payments /> },
     ],
   },

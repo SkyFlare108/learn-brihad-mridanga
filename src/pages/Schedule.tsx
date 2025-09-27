@@ -1,16 +1,11 @@
 import EmbedFrame from "../components/EmbedFrame";
 
 const CALENDAR_URL = import.meta.env.VITE_CALENDAR_EMBED_URL || "";
-const FORM_URL = import.meta.env.VITE_GOOGLE_FORM_EMBED_URL || "";
 
-export default function Classes() {
+export default function Schedule() {
   return (
     <main style={{ paddingTop: "0.5rem", paddingLeft: "2rem", paddingRight: "2rem", paddingBottom: "2rem" }}>
-      <h1>Class Schedules & Registration</h1>
-      <h2>Registration</h2>
-      <EmbedFrame src={FORM_URL} title="Google Form" height={1200} />
-
-      <h2>Calendar</h2>
+      <h1>Class Schedule</h1>
       <EmbedFrame src={CALENDAR_URL} title="Calendar" height={600} />
     </main>
   );

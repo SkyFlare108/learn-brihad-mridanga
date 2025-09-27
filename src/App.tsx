@@ -34,11 +34,18 @@ export default function App() {
           About
         </NavLink>
         <NavLink
-          to="/classes"
+          to="/registration"
           className={({ isActive }) => (isActive ? "active" : "")}
           style={{ margin: "0 0.5rem", color: "white" }}
         >
-          Classes
+          Registration
+        </NavLink>
+        <NavLink
+          to="/schedule"
+          className={({ isActive }) => (isActive ? "active" : "")}
+          style={{ margin: "0 0.5rem", color: "white" }}
+        >
+          Schedule
         </NavLink>
         <NavLink
           to="/payments"
