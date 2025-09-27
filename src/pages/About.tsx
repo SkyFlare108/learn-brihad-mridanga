@@ -1,5 +1,6 @@
 import InstructorSlideshow from "../components/InstructorSlideshow";
 import Timeline from "../components/Timeline";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -22,10 +23,10 @@ export default function About() {
       <h2 style={{ marginTop: "2rem" }}>Our Instructors</h2>
       <InstructorSlideshow />
 
-      <h2 style={{ marginTop: "2rem" }}>Want to Get Involved?</h2>
-      <p>Whether you’re looking to learn, teach, or just stay connected, LBM is here to support your journey with the mridanga.</p>
-      <p>Reach out, pick up a drum, and let’s play.</p>
-      <a href="/classes" style={{
+      <h2 style={{ marginTop: "2rem" }}>Want to Learn?</h2>
+      <p>LBM is here to support your journey with the mridanga.</p>
+      <p>Reach out, pick up a drum, and let's play.</p>
+      <Link to="/registration" style={{
         display: "inline-block",
         backgroundColor: "#2c3e50",
         color: "white",
@@ -34,8 +35,7 @@ export default function About() {
         textDecoration: "none",
         marginTop: "1rem",
         fontWeight: "bold",
-      }}>Join a Class</a>
-
+      }}>Join a Class</Link>
     </main>
   );
 }
