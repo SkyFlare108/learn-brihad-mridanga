@@ -1,3 +1,5 @@
+import zelleHari from "../assets/qr-zelle.png";
+import venmoHari from "../assets/qr-venmo.png";
 export default function Payments() {
   return (
     <main style={{ paddingTop: "0.5rem", paddingLeft: "2rem", paddingRight: "2rem", paddingBottom: "2rem" }}>
@@ -12,7 +14,7 @@ export default function Payments() {
           <section style={{ marginTop: "1rem" }}>
             <h2 style={{ margin: 0, fontSize: "1rem" }}>Zelle</h2>
             <img
-              src="/qr-zelle.png"
+              src={zelleHari}
               alt="Zelle QR"
               style={{ width: 200, display: "block" }}
             />
@@ -21,7 +23,7 @@ export default function Payments() {
           <section style={{ marginTop: "1rem" }}>
             <h2 style={{ margin: 0, fontSize: "1rem" }}>Venmo</h2>
             <img
-              src="/qr-venmo.png"
+              src={venmoHari}
               alt="Venmo QR"
               style={{ width: 200, display: "block" }}
             />
