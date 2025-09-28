@@ -1,9 +1,4 @@
 # 🎶 Learn Brihad Mridanga (LBM)
-
-<p align="center">
-  <img src="./assets/public/lbm-logo.png" alt="LBM Logo" width="250"/>
-</p>
-
 ---
 
 ## ✨ Features
