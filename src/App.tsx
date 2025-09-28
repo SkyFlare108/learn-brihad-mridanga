@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-
+import lbmlogo from "./assets/new-lbm-logo.png";
 export default function App() {
   return (
     <div>
@@ -16,7 +16,7 @@ export default function App() {
       {/* Logo + Title */}
       <div style={{ display: "flex", alignItems: "center" }}>
         <img
-          src="/new-lbm-logo.png"
+          src={lbmlogo}
           alt="LBM Logo"
           style={{ height: "60px", width: "70px", marginRight: "0.5rem" }}
         />
