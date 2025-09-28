@@ -15,7 +15,7 @@ const instructors = [
   },
   {
     name: "Harisri Yerramsetti",
-    bio: "Harisri is a dedicated teacher who focuses on building a strong foundation for her students. She has been teaching for 5 years.",
+    bio: "Harisri is the visionary behind the inception of LBM. With five years of teaching experience, he is committed to building a strong rhythmic foundation for his students through diverse and effective teaching methods.",
     image: "/hari-photo.png", // Replace with actual image path
   },
 ];
