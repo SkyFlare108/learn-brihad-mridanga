@@ -1,5 +1,4 @@
 # 🎶 Learn Brihad Mridanga (LBM)
----
 
 ## ✨ Features
 - **About Page**: Information about the school and classes (coming soon).  
