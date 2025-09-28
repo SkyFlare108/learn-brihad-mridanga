@@ -1,9 +1,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import samarth from "my-site/public/samarth-photo.png";
-import arjun from "my-site/public/arjun-photo.png";
-import hari from "my-site/public/hari-photo.png";  
+import samarth from "my-site/src/assets/samarth-photo.png";
+import arjun from "my-site/src/assets/arjun-photo.png";
+import hari from "my-site/src/assets/hari-photo.png";  
 
 const instructors = [
   {
